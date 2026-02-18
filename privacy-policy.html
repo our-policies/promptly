@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Promptly - The AI Memory Layer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .text-gradient { background: linear-gradient(135deg, #f59e0b 0%, #ea580c 50%, #f43f5e 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .bg-gradient-premium { background: radial-gradient(circle at top right, rgba(245, 158, 11, 0.1), transparent), radial-gradient(circle at bottom left, rgba(244, 63, 94, 0.1), transparent), #030712; }
+    </style>
+</head>
+<body class="bg-gradient-premium text-gray-300 min-h-screen selection:bg-amber-500/30">
+    <!-- Nav -->
+    <nav class="fixed top-0 w-full z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto glass rounded-2xl px-6 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="src/assets/icon.png" alt="Promptly Logo" class="w-8 h-8 rounded-lg shadow-lg shadow-amber-500/20">
+                <span class="text-white font-bold tracking-tight text-lg">Promptly</span>
+            </div>
+            <a href="landing-page.html" class="text-xs font-bold uppercase tracking-widest hover:text-amber-500 transition-colors">Back to Home</a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass rounded-[2rem] p-8 md:p-12 relative overflow-hidden border border-white/5">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+
+                <h1 class="text-4xl md:text-5xl font-black text-white mb-4 tracking-tighter">
+                    Privacy <span class="text-gradient">Policy</span>
+                </h1>
+                <p class="text-sm text-gray-500 mb-12">Effective Date: February 19, 2026</p>
+
+                <div class="space-y-12 text-sm md:text-base leading-relaxed">
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">01</span>
+                            Introduction
+                        </h2>
+                        <p>Promptly ("we," "our," or "the Extension") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your data when using the Promptly Chrome extension. As the "AI Memory Layer," we specialize in helping you govern AI workflows while prioritizing a secure, local-first experience.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">02</span>
+                            Information We Collect
+                        </h2>
+                        <ul class="list-disc pl-5 space-y-4">
+                            <li><strong>Account Information:</strong> If you sign up for cloud sync, we collect your email address and name via Google Firebase Authentication.</li>
+                            <li><strong>Workflow Data:</strong> We store your saved prompts, categories, and workflow templates. This data is stored locally on your device and, if signed in, synced to your private cloud storage via Google Firebase Firestore.</li>
+                            <li><strong>Subscription Data:</strong> We use Lemon Squeezy to manage professional subscriptions. While we do not store your credit card details, we maintain your subscription status and billing email to verify Pro tier features.</li>
+                            <li><strong>Usage Stats:</strong> We track local metadata like prompt usage counts and "Last Used" timestamps to help you organize your own data. This metadata is never shared with third parties.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">03</span>
+                            How Your Data is Used
+                        </h2>
+                        <p>Your data is used exclusively to facilitate your AI workflows:</p>
+                        <ul class="list-disc pl-5 mt-4 space-y-2">
+                            <li>To provide the core functionality of prompt saving and injection.</li>
+                            <li>To synchronize your library across different browsers and devices.</li>
+                            <li>To manage and verify your professional subscription status.</li>
+                        </ul>
+                        <p class="mt-4"><strong>We do not track, store, or monitor your actual conversations with AI models (e.g., ChatGPT, Claude, Gemini).</strong> Promptly only interacts with the prompts you explicitly save to its library.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">04</span>
+                            Permissions Explanation
+                        </h2>
+                        <p>Promptly uses the following permissions for specific functions:</p>
+                        <ul class="list-disc pl-5 mt-4 space-y-2">
+                            <li><strong>Storage:</strong> To cache your prompts locally for instant offline access.</li>
+                            <li><strong>Host Permissions:</strong> To enable the Sidebar injection on AI platforms like ChatGPT, Claude, and Gemini.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">05</span>
+                            Third-Party Services
+                        </h2>
+                        <p>We leverage industry-standard infrastructure to ensure security and reliability:</p>
+                        <ul class="list-disc pl-5 mt-4 space-y-2">
+                            <li><strong>Google Firebase:</strong> Used for secure authentication and real-time cloud synchronization.</li>
+                            <li><strong>Lemon Squeezy:</strong> Used for secure payment processing and subscription management.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-500 text-xs font-bold">06</span>
+                            Contact Us
+                        </h2>
+                        <p>If you have any questions regarding this policy or your data, please reach out to us:</p>
+                        <div class="mt-6 p-6 glass rounded-2xl inline-block border-amber-500/20">
+                            <p class="text-white font-bold leading-none mb-1 text-sm">Abdullah Al MahMud</p>
+                            <a href="mailto:abdudevs@gmail.com" class="text-amber-500 font-medium text-xs hover:underline transition-all">abdudevs@gmail.com</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t border-white/5 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <div class="w-6 h-6 rounded bg-amber-500 flex items-center justify-center text-white font-bold text-[10px]">P</div>
+                <span class="text-white font-bold tracking-tight text-sm">Promptly</span>
+            </div>
+            <p class="text-xs text-gray-500">© 2026 Promptly. All rights reserved. Designed for AI Professionals.</p>
+        </div>
+    </footer>
+</body>
+</html>
